@@ -1,11 +1,11 @@
 import os 
 
 
-lib_dir = "utils/segment_ai/" 
+# lib_dir = "utils/segment_ai/" 
 
-os.system(f"cp -r {lib_dir} /content/segment_ai")
+# os.system(f"cp -r {lib_dir} /content/segment_ai")
 
-from segment_ai.get_data import *
+from utils.segment_ai.get_data import *
 path = "segments/hoangsonvothanh_4VNFood/v1"
 new_path = "/content/4VNFood" #Doi ten thu muc neu muon
 clone_data()
