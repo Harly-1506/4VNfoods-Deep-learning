@@ -1,3 +1,19 @@
+import os 
+
+
+lib_dir = "utils/segment_ai/" #@param {type:"string"}
+
+os.system(f"cp -r {lib_dir} /content/segment_ai")
+
+from segment_ai.get_data import *
+path = "segments/hoangsonvothanh_4VNFood/v1"
+new_path = "/content/4VNFood" #Doi ten thu muc neu muon
+clone_data()
+extract2fol(path,new_path)
+os.system("rm -rf /content/segments")
+#output_type="semantic"
+
+
 import os
 os.system("pip install wandb")
 os.system("pip install segmentation-models-pytorch")
