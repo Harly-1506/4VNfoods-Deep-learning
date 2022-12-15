@@ -7,9 +7,9 @@ import albumentations as A
 import cv2
 import re
 
-root_train = "/content/drive/MyDrive/Torch_vnfood/datasets/dataset/Train"
-root_val = "/content/drive/MyDrive/Torch_vnfood/datasets/dataset/Val"
-root_test =  "/content/drive/MyDrive/Torch_vnfood/datasets/dataset/Test"
+root_train = "/content/4VNfoods_Project/datasets/dataset/Train"
+root_val = "/content/4VNfoods_Project/datasets/dataset/Val"
+root_test =  "/content/4VNfoods_Project/datasets/dataset/Test"
 
 
 Name_food = {
