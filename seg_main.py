@@ -1,7 +1,7 @@
 import os 
 
 
-lib_dir = "utils/segment_ai/" #@param {type:"string"}
+lib_dir = "utils/segment_ai/" 
 
 os.system(f"cp -r {lib_dir} /content/segment_ai")
 
@@ -19,8 +19,7 @@ os.system("pip install wandb")
 os.system("pip install segmentation-models-pytorch")
 os.system("pip install catalyst==20.07")
 
-from __future__ import print_function, division
-import os
+
 
 from torch.utils.data import Dataset, DataLoader
 import PIL
