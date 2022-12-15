@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
+from PIL import Image
 import seaborn as sns
 import pandas as pd
 import tqdm
