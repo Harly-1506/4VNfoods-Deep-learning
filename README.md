@@ -5,3 +5,5 @@
 
 ## Dataset :egg: 
 - The data is taken from the dataset [30VNFoods](https://www.kaggle.com/datasets/quandang/vietnamese-foods?fbclid=IwAR2bGtj0pe0SLybywrc5D-uS8ynXwqfDAZO6sTQ8eMLO7wcUP2wYCE4SJWw), this dataset includes 30 dishes and I took 4 dishes: Bánh mì, Phở, Bánh tráng nướng và Cơm tấm
+
+  ![Example](https://github.com/Harly-1506/4VNfoods_Project/blob/main/images/image.png "This is a sample image.")
