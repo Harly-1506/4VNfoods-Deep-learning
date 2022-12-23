@@ -125,7 +125,7 @@ from catalyst.dl import SupervisedRunner
 # from catalyst.contrib.nn import Adam, , OneCycleLRWithWarmup
 from catalyst.dl import SupervisedRunner
 
-logdir = "/content/logs"
+logdir = "/logs"
 num_epochs = 15
 learning_rate = 1e-3
 base_optimizer = Adam([
