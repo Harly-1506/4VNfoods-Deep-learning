@@ -20,10 +20,12 @@
 git clone https://github.com/Harly-1506/4VNfoods_Project.git
 
 cd 4VNfoods_Project
-
+#run classification
 run classifi_main.py
-
+#run segmentation
+run seg_main.py
 ```
+**__Note__**: When you run seg_main.py, it takes 8 to 10 minutes to prepare the data
 
 ## Result
 ![Example](https://github.com/Harly-1506/4VNfoods_Project/blob/main/images/W%26B%20valac.png "This is a sample image.")
