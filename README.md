@@ -28,6 +28,9 @@ run classifi_main.py
 ## Result
 ![Example](https://github.com/Harly-1506/4VNfoods_Project/blob/main/images/W%26B%20valac.png "This is a sample image.")
 
+## Demo:
+
+- Demo program you can follow in this repository: [Demo](https://github.com/RC-Sho0/4VNFood--Demo-App-by-Streamlit)
 ___
 *Author: Harly*
 
