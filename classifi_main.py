@@ -41,7 +41,7 @@ model = miniVGG()
 model.cuda()
 summary(model, ((3,224,224)), batch_size = 32)
 
-fit(model,train_loader,valid_loader, test_loader,max_epochs = 50, max_plateau_count = 15, wb = True)
+fit(model,train_loader,valid_loader, test_loader,max_epochs = 50, max_plateau_count = 15, wb = False)
 
 # import matplotlib.pyplot as plt 
 # from torchvision import transforms
