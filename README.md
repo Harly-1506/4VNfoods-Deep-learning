@@ -17,9 +17,9 @@
 
 ## How to run this project :question:
 ```python
-git clone https://github.com/Harly-1506/4VNfoods_Project.git
+git clone https://github.com/Harly-1506/4VNfoods-Deep-learning.git
 
-cd 4VNfoods_Project
+cd 4VNfoods_Deep_learning
 #run classification
 run classifi_main.py
 #run segmentation
